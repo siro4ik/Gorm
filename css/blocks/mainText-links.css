@@ -1,0 +1,23 @@
+.mainText-links {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 145px 120px;
+
+}
+.mainText-links-text {
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: left;
+    color: #fff;
+}
+.mainText-links-links {
+}
+.link-inst {
+}
+.link-twitter {
+}
+.link-dribbble {
+}
