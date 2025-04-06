@@ -2,8 +2,8 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin: 145px 120px;
-
+    margin-left: 145px;
+    height: 680px;
 }
 .mainText-links-text {
     font-weight: 400;
@@ -15,11 +15,39 @@
 }
 .mainText-links-links {
     display: flex;
+    align-items: center;
     transform: rotate(90deg);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 167%;
+    color: #fff;
 }
-.link-inst {
+.link-instagram {
+    display: flex;
+    margin-right: 60px;
+    gap:7px;
+    transition: 0.3s ease;
 }
 .link-twitter {
+    display: flex;
+    margin-right: 60px;
+    gap:7px;
+    transition: 0.3s ease;
 }
 .link-dribbble {
+    display: flex;
+    margin-right: 60px;
+    gap:7px;
+    transition: 0.3s ease;
+}
+.link-dribbble:hover{
+    color:#f658f9;
+}
+
+.link-twitter:hover{
+    color: rgb(0, 157, 255);
+}
+
+.link-instagram:hover{
+    color: rgb(174, 44, 255);
 }
