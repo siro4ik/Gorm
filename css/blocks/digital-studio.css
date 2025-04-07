@@ -1,0 +1,33 @@
+.digital-studio{
+    height: 1650px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.digital-studio-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.digital-studio-description {
+
+}
+
+.digital-studio-description-main {
+
+}
+
+.digital-studio-description-secondary {
+
+}
+
+.digital-studio-teams {
+
+}
+
+.grid-teams {
+
+}
