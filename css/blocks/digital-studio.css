@@ -1,7 +1,7 @@
 .digital-studio{
     height: 1650px;
+    width: 1200px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .digital-studio-images {
@@ -12,22 +12,118 @@
     margin: 0 auto;
 }
 
+.image-left{
+    margin-right: 40px;
+}
+
+.image-right{
+    width: 800px;
+    margin-right: -220px;
+}
+
+.image-center{
+    position: absolute;
+
+}
+
 .digital-studio-description {
+    position:relative;
+    width: 960px;
+    height: 352px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 120px;
 
 }
 
 .digital-studio-description-main {
-
+    width: 385px;
+    height: 352px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 .digital-studio-description-secondary {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 430px;
+    height: 295px;
+    margin-left: 145px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.8);
+}
 
+.digital-studio-description-secondary p:nth-child(1){
+    margin-bottom: 30px;
+}
+
+.digital-studio-button{
+    border-radius: 4px;
+    background-color: #c6100f;
+    padding: 12px 16px 11px 16px;
+    align-self: flex-start;
+    margin-top: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.digital-studio-button:hover{
+    background-color: #ff3b3b;
+    color: #000000;
 }
 
 .digital-studio-teams {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px;
+    height: 273px;
+}
 
+.digital-studio-teams h2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.digital-studio-teams p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .grid-teams {
+    width: 550px;
+    height: 151px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
+.grid-teams img{
+    justify-self: center;
+    align-self: center;
 }
