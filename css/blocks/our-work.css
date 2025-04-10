@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
     height: 83px;
-    transition: 0.2s ease;
+    transition: 0.3s ease;
 }
 
 .our-work-all-projects:hover{
@@ -31,5 +31,11 @@
 }
 
 .our-work-button {
-    padding: 0 30px
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0 30px;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.3);
 }

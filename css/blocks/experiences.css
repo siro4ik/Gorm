@@ -10,12 +10,51 @@
     letter-spacing: 0.01em;
     text-transform: uppercase;
     color: #fff;
+    margin: 0 auto;
+    margin-bottom:82px ;
 }
 .experiences-cards {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:30px;
+    height: 337px;
 }
 .card {
+    background-color: #171924;
+    width: 300px;
+    height: 337px;
 }
 .card-header {
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    background-color: #0e101a;
+    width: 270px;
+    height: 150px;
+    margin: 15px 15px 20px 15px;
+    clip-path: polygon(0 0, 100% 0, 100% 89%, 75% 100%, 25% 100%, 0 89%);
 }
 .card-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.card-text h3{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 158%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
 }
