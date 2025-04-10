@@ -1,0 +1,35 @@
+.our-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.our-work-text {
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.our-work-all-projects {
+    background-color: #c6100f;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 83px;
+    transition: 0.2s ease;
+}
+
+.our-work-all-projects:hover{
+    background-color: #ff3b3b;
+    color:rgba(0, 0, 0, 0.652);
+}
+
+.our-work-button {
+    padding: 0 30px
+}

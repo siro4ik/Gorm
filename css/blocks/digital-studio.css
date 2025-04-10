@@ -83,7 +83,7 @@
 
 .digital-studio-button:hover{
     background-color: #ff3b3b;
-    color: #000000;
+    color:rgba(0, 0, 0, 0.652);
 }
 
 .digital-studio-teams {
