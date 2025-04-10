@@ -1,0 +1,21 @@
+.experiences {
+    margin: 0 auto;
+    max-width: 1448px;
+    margin-bottom: 120px;
+}
+.experiences-text {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.experiences-cards {
+}
+.card {
+}
+.card-header {
+}
+.card-text {
+}
