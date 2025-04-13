@@ -1,0 +1,87 @@
+.our-skills {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1200px;
+    height: 533px;
+    margin-bottom: 150px;
+}
+.our-skills-skills {
+    width: 550px;
+    margin-right: 100px;
+}
+.our-skills-skills-text {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom:62px;
+}
+.our-skills-skills-parameters {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 133%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.graphic-design,
+.lead-generation,
+.photoshop,
+.illustration {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.graphic-design {
+    border-bottom: none;
+}
+
+.graphic-design::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: #c6100f;
+    width: 80%;
+}
+
+.lead-generation::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: #c6100f;
+    width: 41%;
+}
+
+.photoshop::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: #c6100f;
+    width: 70%;
+}
+
+.illustration::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: #c6100f;
+    width: 100%;
+}
