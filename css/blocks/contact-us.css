@@ -3,6 +3,7 @@
     width: 1300px;
     height: 533px;
     margin: 0 auto;
+    margin-bottom: 150px;
 }
 .contact-us-image {
     margin-right: 100px;
@@ -31,15 +32,23 @@
 .input {
     display: block;
     width: 100%;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 120%;
-    color: rgba(255, 255, 255, 0.8);
     padding: 11px 28px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     background-color: #12141d;
     text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.8);
 }
+
+.input::placeholder{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: hsla(0, 0%, 100%, 0.8);
+}
+
 .textarea {
     height: 104px;
     resize: vertical;
