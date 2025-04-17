@@ -26,19 +26,19 @@
     display: flex;
     margin-right: 60px;
     gap:7px;
-    transition: 0.3s ease;
+    transition: 0.2s ease;
 }
 .link-twitter {
     display: flex;
     margin-right: 60px;
     gap:7px;
-    transition: 0.3s ease;
+    transition: 0.2s ease;
 }
 .link-dribbble {
     display: flex;
     margin-right: 60px;
     gap:7px;
-    transition: 0.3s ease;
+    transition: 0.2s ease;
 }
 .link-dribbble:hover{
     color:#f658f9;

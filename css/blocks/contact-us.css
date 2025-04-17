@@ -65,4 +65,10 @@
     border-radius: 4px;
     border: none;
     cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.send-proposal:hover{
+    background-color: #ff3b3b;
+    color:rgba(0, 0, 0, 0.652);
 }
