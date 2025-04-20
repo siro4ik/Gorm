@@ -127,3 +127,28 @@
     justify-self: center;
     align-self: center;
 }
+
+@media(max-width:1800px){
+    .digital-studio-images{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .image-left{
+        margin-right: 0;
+    }
+
+    .image-right{
+        width: 800px;
+        margin-right: 0;
+    }
+
+    .image-center{
+        position:relative ;
+    }
+    .digital-studio{
+        height: 2000px;
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
