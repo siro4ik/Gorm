@@ -52,7 +52,7 @@
     color: rgb(174, 44, 255);
 }
 
-@media (max-width: 1700px){
+@media (max-width: 1600px){
     .mainText-links-text{
         font-size: 80px;
     }

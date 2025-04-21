@@ -128,7 +128,7 @@
     align-self: center;
 }
 
-@media(max-width:1800px){
+@media(max-width:1600px){
     .digital-studio-images{
         align-items: center;
         justify-content: center;
