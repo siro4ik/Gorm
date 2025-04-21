@@ -1,6 +1,7 @@
 .digital-studio{
-    height: 1500px;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -17,7 +18,8 @@
 }
 
 .image-right{
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     margin-right: -220px;
 }
 
@@ -28,8 +30,9 @@
 
 .digital-studio-description {
     position:relative;
-    width: 960px;
-    height: 352px;
+    width: 100%;
+    max-width: 960px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,8 +41,9 @@
 }
 
 .digital-studio-description-main {
-    width: 385px;
-    height: 352px;
+    width:100%;
+    max-width: 385px;
+    height: auto;
     font-weight: 400;
     font-size: 80px;
     line-height: 110%;
@@ -53,8 +57,9 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 430px;
-    height: 295px;
+    width: 100%;
+    max-width: 430px;
+    height: auto;
     margin-left: 145px;
     font-weight: 400;
     font-size: 20px;
@@ -91,8 +96,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 1200px;
-    height: 273px;
+    width:100%;
+    max-width: 1200px;
+    height: auto;
 }
 
 .digital-studio-teams h2{
@@ -117,8 +123,9 @@
 }
 
 .grid-teams {
-    width: 550px;
-    height: 151px;
+    width:100%;
+    max-width: 550px;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }

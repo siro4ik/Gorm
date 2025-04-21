@@ -1,6 +1,6 @@
 .header{
     width: 100%;
-    height: 86px;
+    height: auto;
     padding: 21px 120px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
 }
@@ -29,15 +29,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 204px;
-    height: 43px;
+    width:100%;
+    max-width: 204px;
+    height: auto;
 }
 .bucket-counter {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 48px;
-    height: 23px;
+    width:100%;
+    max-width: 48px;
+    height: auto;
 }
 .counter {
     margin-left: 3px;
@@ -64,8 +66,9 @@
     letter-spacing: 0.07em;
     text-transform: uppercase;
     color: #fff;
-    width: 136px;
-    height: 43px;
+    width:100%;
+    max-width: 136px;
+    height: auto;
 }
 
 .contact-button:hover{

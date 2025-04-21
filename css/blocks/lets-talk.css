@@ -5,7 +5,7 @@
     white-space: nowrap;
     overflow: visible;
     background-color: #c6100f;
-    height: 169px;
+    max-height: 169px;
     margin-bottom: 50px;
 }
 .lets-talk-text {

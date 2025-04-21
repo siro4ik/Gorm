@@ -2,12 +2,14 @@
     display: flex;
     align-items: center;
     margin: 0 auto;
-    width: 1200px;
-    height: 533px;
+    width:100%;
+    max-width: 1200px;
+    height: auto;
     margin-bottom: 150px;
 }
 .our-skills-skills {
-    width: 550px;
+    width:100%;
+    max-width: 550px;
     margin-right: 100px;
 }
 .our-skills-skills-text {

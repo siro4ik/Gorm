@@ -1,6 +1,7 @@
 .testimonials {
-    width: 1200px;
-    height: 484px;
+    width:100%;
+    max-width: 1200px;
+    height: auto;
     margin: 0 auto;
     margin-bottom: 150px;
     display: flex;
@@ -19,8 +20,9 @@
     margin-bottom: 82px;
 }
 .testimonials-main {
-    width: 840px;
-    height: 316px;
+    width:100%;
+    max-width: 840px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;

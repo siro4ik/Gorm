@@ -22,15 +22,17 @@
     justify-content: center;
     align-items: center;
     gap: 52px;
-    width: 400px;
-    height: 555px;
+    width:100%;
+    max-width: 400px;
+    height: auto;
 }
 .blog-news {
     background-color:#12141d ;
 }
 .blog-news-image {
-    width: 393px;
-    height: 304px;
+    width:100%;
+    max-width: 393px;
+    height: auto;
 }
 .blog-news-type-first {
     display: inline-block;

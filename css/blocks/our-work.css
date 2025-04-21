@@ -21,7 +21,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    height: 83px;
+    height: auto;
     transition: 0.2s ease;
 }
 
