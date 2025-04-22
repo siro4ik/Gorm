@@ -16,4 +16,15 @@
 @import "/Gorm/css/blocks/lets-talk.css";
 @import "/Gorm/css/blocks/footer.css";
 
-@import url(/Gorm/css/blocks/header.css)
+@import url("css/blocks/header.css");
+@import url("css/blocks/mainText-links.css");
+@import url("css/blocks/digital-studio.css");
+@import url("css/blocks/experiences.css");
+@import url("css/blocks/testimonials.css");
+@import url("css/blocks/our-skills.css");
+@import url("css/blocks/fun-facts.css");
+@import url("css/blocks/contact-us.css");
+@import url("css/blocks/our-work.css");
+@import url("css/blocks/lets-talk.css");
+@import url("css/blocks/from-blog.css");
+@import url("css/blocks/footer.css");
