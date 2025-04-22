@@ -15,3 +15,5 @@
 @import "/Gorm/css/blocks/from-blog.css";
 @import "/Gorm/css/blocks/lets-talk.css";
 @import "/Gorm/css/blocks/footer.css";
+
+@import url(/Gorm/css/blocks/header.css)
