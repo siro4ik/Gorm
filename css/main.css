@@ -2,16 +2,3 @@
 @import "./base/reset.css";
 
 @import "/fonts/roboto/roboto.css";
-
-@import "/Gorm/css/blocks/header.css";
-@import "/Gorm/css/blocks/mainText-links.css";
-@import "/Gorm/css/blocks/digital-studio.css";
-@import "/Gorm/css/blocks/our-work.css";
-@import "/Gorm/css/blocks/experiences.css";
-@import "/Gorm/css/blocks/testimonials.css";
-@import "/Gorm/css/blocks/our-skills.css";
-@import "/Gorm/css/blocks/fun-facts.css";
-@import "/Gorm/css/blocks/contact-us.css";
-@import "/Gorm/css/blocks/from-blog.css";
-@import "/Gorm/css/blocks/lets-talk.css";
-@import "/Gorm/css/blocks/footer.css";
