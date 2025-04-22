@@ -1,13 +1,12 @@
 .fun-facts {
     width:100%;
     max-width: 1400px;
-    height: auto;
     margin: 0 auto;
     margin-bottom:150px;
 }
 .fun-facts-text {
     font-weight: 400;
-    font-size: 40px;
+    font-size: clamp(2.5rem, 1.959rem + 2.7vw, 5rem);
     line-height: 110%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -19,7 +18,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 89px;
+    gap: clamp(1.25rem, 0.709rem + 2.7vw, 3.75rem);
 }
 .fun-facts-facts-years,
 .fun-facts-facts-projects,
@@ -48,4 +47,10 @@
 
 .fun-facts-facts-image{
     margin-right: 25px;
+}
+
+@media (max-width:1000px){
+    .fun-facts-facts {
+        flex-direction: column;
+    }
 }

@@ -1,11 +1,9 @@
 .lets-talk {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     white-space: nowrap;
-    overflow: visible;
+    overflow: hidden; /* Важно! */
+    width: 100%;
+    position: relative;
     background-color: #c6100f;
-    max-height: 169px;
     margin-bottom: 50px;
 }
 .lets-talk-text {
@@ -15,4 +13,17 @@
     letter-spacing: 0.13em;
     text-transform: uppercase;
     color: #fff;
+}
+
+/* под вопросом */
+
+.lets-talk-text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scrollText 15s linear infinite;
+}
+
+@keyframes scrollText {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
 }

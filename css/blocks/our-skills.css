@@ -5,16 +5,16 @@
     width:100%;
     max-width: 1200px;
     height: auto;
-    margin-bottom: 150px;
+    margin-bottom: clamp(1.25rem, -0.507rem + 8.78vw, 9.375rem);
 }
 .our-skills-skills {
     width:100%;
     max-width: 550px;
-    margin-right: 100px;
+    margin-right: clamp(0.938rem, -0.211rem + 5.74vw, 6.25rem);
 }
 .our-skills-skills-text {
     font-weight: 400;
-    font-size: 80px;
+    font-size: clamp(2.5rem, 1.959rem + 2.7vw, 5rem);
     line-height: 110%;
     letter-spacing: 0.01em;
     text-transform: uppercase;
@@ -48,7 +48,7 @@
     justify-content: space-between;
     position: relative;
     padding-bottom: 10px;
-    margin-bottom: 30px;
+    margin-bottom: clamp(0.938rem, 0.735rem + 1.01vw, 1.875rem);
 }
 
 .graphic-design {

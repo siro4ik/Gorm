@@ -2,12 +2,11 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin-left: 145px;
-    height: auto;
+    margin-left: clamp(1.875rem, 0.321rem + 7.77vw, 9.063rem);
 }
 .mainText-links-text {
     font-weight: 400;
-    font-size: 130px;
+    font-size:clamp(2.5rem, 1.081rem + 7.09vw, 9.063rem);
     line-height: 100%;
     text-transform: uppercase;
     text-align: left;
@@ -24,20 +23,20 @@
 }
 .link-instagram {
     display: flex;
-    margin-right: 60px;
-    gap:7px;
+    margin-right: clamp(1.25rem, 0.709rem + 2.7vw, 3.75rem);
+    gap:clamp(0.125rem, 0.057rem + 0.34vw, 0.438rem);
     transition: 0.2s ease;
 }
 .link-twitter {
     display: flex;
-    margin-right: 60px;
-    gap:7px;
+    margin-right: clamp(1.25rem, 0.709rem + 2.7vw, 3.75rem);
+    gap:clamp(0.125rem, 0.057rem + 0.34vw, 0.438rem);
     transition: 0.2s ease;
 }
 .link-dribbble {
     display: flex;
-    margin-right: 60px;
-    gap:7px;
+    margin-right: clamp(1.25rem, 0.709rem + 2.7vw, 3.75rem);
+    gap:clamp(0.125rem, 0.057rem + 0.34vw, 0.438rem);
     transition: 0.2s ease;
 }
 .link-dribbble:hover{
@@ -52,14 +51,12 @@
     color: rgb(174, 44, 255);
 }
 
-@media (max-width: 1600px){
-    .mainText-links-text{
-        font-size: 80px;
+@media (max-width:640px){
+    .mainText-links {
+        flex-direction:column-reverse;
+    }
+    .mainText-links-links {
+        transform:none;
     }
 }
 
-@media (max-width: 800px){
-    .mainText-links-text{
-        font-size: 48px;
-    }
-}

@@ -1,7 +1,6 @@
 .digital-studio{
     width: 100%;
     max-width: 1200px;
-    height: auto;
     margin: 0 auto;
 }
 
@@ -31,13 +30,10 @@
 .digital-studio-description {
     position:relative;
     width: 100%;
-    max-width: 960px;
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 60px 120px;
-
 }
 
 .digital-studio-description-main {
@@ -45,7 +41,7 @@
     max-width: 385px;
     height: auto;
     font-weight: 400;
-    font-size: 80px;
+    font-size: clamp(1.875rem, 1.199rem + 3.38vw, 5rem);
     line-height: 110%;
     letter-spacing: 0.01em;
     text-transform: uppercase;
@@ -146,16 +142,25 @@
     }
 
     .image-right{
-        width: 800px;
+        width: 100%;
         margin-right: 0;
     }
 
     .image-center{
         position:relative ;
     }
-    .digital-studio{
-        height: 2000px;
-        width: 1200px;
-        margin: 0 auto;
+    .digital-studio {
+        width: 100%;
+        padding: 0 10px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .digital-studio-description{
+        flex-direction: column;
+        margin:0;
+    }
+    .digital-studio-description-secondary{
+        margin-left: 0;
     }
 }
