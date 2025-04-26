@@ -2,14 +2,13 @@
     display: flex;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: clamp(1.875rem, 0.253rem + 8.11vw, 9.375rem);
+    padding: 0 clamp(0.625rem, 0.557rem + 0.34vw, 0.938rem);
     width:100%;
     max-width: 1200px;
-    height: auto;
-    margin-bottom: clamp(1.25rem, -0.507rem + 8.78vw, 9.375rem);
 }
 .our-skills-skills {
     width:100%;
-    max-width: 550px;
     margin-right: clamp(0.938rem, -0.211rem + 5.74vw, 6.25rem);
 }
 .our-skills-skills-text {
@@ -18,8 +17,9 @@
     line-height: 110%;
     letter-spacing: 0.01em;
     text-transform: uppercase;
+    text-align: center;
     color: #fff;
-    padding-bottom:62px;
+    padding-bottom:clamp(1.875rem, 1.402rem + 2.36vw, 4.063rem);
 }
 .our-skills-skills-parameters {
     display: flex;
@@ -35,7 +35,7 @@
 
 .footnote{
     font-weight: 400;
-    font-size: 16px;
+    font-size: clamp(0.625rem, 0.544rem + 0.41vw, 1rem);
     line-height: 120%;
     color: rgba(255, 255, 255, 0.8);
 }

@@ -18,9 +18,8 @@
 .experiences-cards {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
     gap:clamp(0.625rem, 0.355rem + 1.35vw, 1.875rem);
-    height: auto;
 }
 .card {
     background-color: #171924;

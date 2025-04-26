@@ -5,10 +5,11 @@
     width:100%;
     max-width: 1300px;
     margin: 0 auto;
+    padding: 0 15px;
     margin-bottom: clamp(1.875rem, 0.253rem + 8.11vw, 9.375rem);
 }
 .contact-us-image {
-    margin-right: 100px;
+    margin-right: clamp(3.125rem, 2.449rem + 3.38vw, 6.25rem);
     height: 100%;
 }
 .contact-us-container {

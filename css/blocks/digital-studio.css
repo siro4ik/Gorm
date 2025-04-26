@@ -24,7 +24,16 @@
 
 .image-center{
     position: absolute;
+    animation: spin 13s linear infinite;
+}
 
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 .digital-studio-description {
@@ -94,7 +103,7 @@
     flex-direction: column;
     width:100%;
     max-width: 1200px;
-    height: auto;
+    margin-bottom: clamp(1.25rem, -0.507rem + 8.78vw, 9.375rem);
 }
 
 .digital-studio-teams h2{
@@ -139,16 +148,20 @@
     }
     .image-left{
         margin-right: 0;
+        margin-bottom: -50px;
     }
 
     .image-right{
         width: 100%;
         margin-right: 0;
+        margin-top: -50px;
     }
 
     .image-center{
         position:relative ;
+
     }
+
     .digital-studio {
         width: 100%;
         padding: 0 10px;

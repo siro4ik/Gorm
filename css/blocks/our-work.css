@@ -21,7 +21,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    height: auto;
+    padding: 10px 0;
     transition: 0.2s ease;
 }
 
@@ -38,4 +38,13 @@
     text-transform: uppercase;
     padding: 0 30px;
     border-bottom: 1px solid  rgba(255, 255, 255, 0.3);
+}
+
+
+@media (max-width: 1500px){
+    .our-work-images{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
