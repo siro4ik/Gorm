@@ -42,7 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 60px 120px;
+    margin: clamp(1.875rem, 0.253rem + 8.11vw, 9.375rem) 0;
 }
 
 .digital-studio-description-main {
@@ -64,8 +64,7 @@
     flex-direction: column;
     width: 100%;
     max-width: 430px;
-    height: auto;
-    margin-left: 145px;
+    margin-left: clamp(1.875rem, 0.253rem + 8.11vw, 9.375rem);
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
@@ -76,7 +75,14 @@
     margin-bottom: 30px;
 }
 
+.digital-studio-description-secondary p:nth-child(2){
+    margin-bottom: 70px;
+}
+
 .digital-studio-button{
+    position:absolute;
+    bottom:0;
+    left:0;
     border-radius: 4px;
     background-color: #c6100f;
     padding: 12px 16px 11px 16px;
