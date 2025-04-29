@@ -16,7 +16,7 @@
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    margin-bottom: clamp(0.625rem, -0.321rem + 4.73vw, 5rem);
+    margin-bottom: clamp(0.938rem, 0.735rem + 1.01vw, 1.875rem);
 }
 .testimonials-main {
     width:100%;
