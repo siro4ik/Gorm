@@ -10,6 +10,7 @@
     align-items: center;
     position: relative;
     margin: 0 auto;
+    margin-bottom:clamp(0.938rem, 0.465rem + 2.36vw, 3.125rem) ;
 }
 
 .image-left{
@@ -41,13 +42,12 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: clamp(1.875rem, 0.253rem + 8.11vw, 9.375rem) 0;
+    justify-content: space-evenly;
 }
 
 .digital-studio-description-main {
     width:100%;
-    max-width: 385px;
+    max-width: 500px;
     height: auto;
     font-weight: 400;
     font-size: clamp(1.875rem, 1.199rem + 3.38vw, 5rem);
@@ -63,20 +63,21 @@
     justify-content: space-between;
     flex-direction: column;
     width: 100%;
-    max-width: 430px;
-    margin-left: clamp(1.875rem, 0.253rem + 8.11vw, 9.375rem);
+    max-width: 500px;
+    margin-left: clamp(1rem, 0.946rem + 0.27vw, 1.25rem);
+    margin-bottom: clamp(0.938rem, 0.465rem + 2.36vw, 3.125rem);
     font-weight: 400;
-    font-size: 20px;
+    font-size: clamp(0.875rem, 0.794rem + 0.41vw, 1.25rem);
     line-height: 120%;
     color: rgba(255, 255, 255, 0.8);
 }
 
 .digital-studio-description-secondary p:nth-child(1){
-    margin-bottom: 30px;
+    margin-bottom: clamp(0.938rem, 0.735rem + 1.01vw, 1.875rem);
 }
 
 .digital-studio-description-secondary p:nth-child(2){
-    margin-bottom: 70px;
+    margin-bottom: clamp(0.938rem, 0.059rem + 4.39vw, 5rem);
 }
 
 .digital-studio-button{
@@ -175,11 +176,25 @@
         justify-content: center;
         flex-direction: column;
     }
+
+
+}
+
+@media(max-width:1000px){
     .digital-studio-description{
         flex-direction: column;
-        margin:0;
+        text-align: center;
     }
     .digital-studio-description-secondary{
+        margin-top:clamp(0.938rem, 0.735rem + 1.01vw, 1.875rem);
+        text-align: center;
         margin-left: 0;
     }
+    .digital-studio-button{
+        position:inherit;
+        left:50%;
+        background-color: #c6100f;
+        padding: 12px 16px 11px 16px;
+    }
+
 }

@@ -1,7 +1,6 @@
 .testimonials {
     width:100%;
     max-width: 1200px;
-    height: auto;
     margin: 0 auto;
     margin-bottom: clamp(1.875rem, 0.253rem + 8.11vw, 9.375rem);
     display: flex;
@@ -11,7 +10,7 @@
 }
 .testimonials-text {
     font-weight: 400;
-    font-size: clamp(2.5rem, 1.959rem + 2.7vw, 5rem);
+    font-size: clamp(2.188rem, 1.579rem + 3.04vw, 5rem);
     line-height: 110%;
     letter-spacing: 0.01em;
     text-transform: uppercase;
@@ -30,11 +29,11 @@
 }
 .testimonials-main-image img{
     border-radius: 5px;
-    margin-bottom: 30px;
+    margin-bottom: clamp(1.25rem, 1.115rem + 0.68vw, 1.875rem);
 }
 .testimonials-main-big-text {
     font-weight: 400;
-    font-size: 30px;
+    font-size: clamp(1.25rem, 1.115rem + 0.68vw, 1.875rem);
     line-height: 110%;
     text-transform: uppercase;
     text-align: center;
@@ -43,7 +42,7 @@
 }
 .testimonials-main-small-text {
     font-weight: 400;
-    font-size: 15px;
+    font-size: clamp(0.75rem, 0.709rem + 0.2vw, 0.938rem);
     line-height: 133%;
     letter-spacing: 0.07em;
     text-transform: uppercase;

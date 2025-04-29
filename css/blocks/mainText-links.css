@@ -3,7 +3,7 @@
     justify-content:space-between;
     align-items: center;
     margin-left: clamp(1.875rem, 0.321rem + 7.77vw, 9.063rem);
-    margin-bottom:clamp(1.875rem, 0.253rem + 8.11vw, 9.375rem) ;
+    margin-bottom:clamp(1.875rem, 1.267rem + 3.04vw, 4.688rem) ;
 }
 .mainText-links-text {
     font-weight: 400;
@@ -21,6 +21,7 @@
     font-size: 14px;
     line-height: 167%;
     color: #fff;
+    margin-bottom:clamp(0.938rem, 0.735rem + 1.01vw, 1.875rem);
 }
 .link-instagram {
     display: flex;
@@ -55,9 +56,13 @@
 @media (max-width:640px){
     .mainText-links {
         flex-direction:column-reverse;
+        margin-left:0;
     }
     .mainText-links-links {
         transform:none;
+    }
+    .mainText-links-text{
+        text-align: center;
     }
 }
 

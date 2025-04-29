@@ -2,7 +2,7 @@
     width: 100%;
     padding: clamp(0.5rem, 0.324rem + 0.88vw, 1.313rem) clamp(1.875rem, 0.659rem + 6.08vw, 7.5rem);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-    margin-bottom:clamp(1.875rem, 0.253rem + 8.11vw, 9.375rem) ;
+    margin-bottom:clamp(0.938rem, 0.735rem + 1.01vw, 1.875rem);
 }
 
 .nav {
@@ -78,7 +78,7 @@
 
 @media (max-width: 1100px){
     .header{
-        padding: 21px 30px;
+        padding: clamp(0.625rem, 0.422rem + 1.01vw, 1.563rem) clamp(0.938rem, 0.735rem + 1.01vw, 1.875rem);
     }
 }
 
@@ -95,6 +95,7 @@
     .header{
         border-bottom: none;
     }
+
     .contact-button{
         display: none;
     }

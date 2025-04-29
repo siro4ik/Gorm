@@ -94,3 +94,10 @@
     background: #c6100f;
     width: 100%;
 }
+
+
+@media(max-width: 640px){
+    .our-skills-man{
+        display: none;
+    }
+}

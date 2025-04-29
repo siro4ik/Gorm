@@ -2,7 +2,7 @@
     width:100%;
     max-width: 1400px;
     margin: 0 auto;
-    margin-bottom:150px;
+    margin-bottom:clamp(1.875rem, 0.253rem + 8.11vw, 9.375rem);
 }
 .fun-facts-text {
     font-weight: 400;
@@ -12,7 +12,7 @@
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    margin-bottom: 72px;
+    margin-bottom: clamp(1.875rem, 1.267rem + 3.04vw, 4.688rem);
 }
 .fun-facts-facts {
     display: flex;
